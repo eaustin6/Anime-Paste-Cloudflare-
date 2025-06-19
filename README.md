@@ -2,7 +2,7 @@
 
 A lightweight, encrypted, anime-themed Pastebin clone built with **Cloudflare Pages Functions** and **KV Storage**.
 
-## ðŸŒŸ Features
+## 🌟 Features
 
 - Paste creation & retrieval
 - Optional dark mode toggle
@@ -15,20 +15,20 @@ A lightweight, encrypted, anime-themed Pastebin clone built with **Cloudflare Pa
 
 ---
 
-## ðŸ“ Folder Structure
+## 📁 Folder Structure
 
 ```
 /functions
-  index.js          â† Create a new paste
-  [id].js           â† Retrieve & increment view count
-  views/[id].js     â† Return view count
+  index.js          ← Create a new paste
+  [id].js           ← Retrieve & increment view count
+  views/[id].js     ← Return view count
 /static
-  index.html        â† Frontend UI (Anime styled)
+  index.html        ← Frontend UI (Anime styled)
 ```
 
 ---
 
-## ðŸ”§ Setup Instructions
+## 🔧 Setup Instructions
 
 ### 1. Clone the repo
 
@@ -52,7 +52,7 @@ kv_namespaces = [
 ]
 ```
 
-> ðŸ” Replace `<PASTES_KV_ID>` and `<VIEWS_KV_ID>` with your real Cloudflare KV namespace IDs from the dashboard.
+> 🔐 Replace `<PASTES_KV_ID>` and `<VIEWS_KV_ID>` with your real Cloudflare KV namespace IDs from the dashboard.
 
 ### 3. Deploy to Cloudflare Pages
 
@@ -63,7 +63,7 @@ kv_namespaces = [
 
 ---
 
-## ðŸ–¼ï¸ Frontend Highlights
+## 🖼️ Frontend Highlights
 
 - Paste form with expiration, privacy checkbox
 - Login box for encryption password (AES key derived using PBKDF2)
@@ -73,7 +73,7 @@ kv_namespaces = [
 
 ---
 
-## ðŸ“œ API Endpoints
+## 📜 API Endpoints
 
 ### `POST /`
 
@@ -104,7 +104,7 @@ Returns plain text view count for the paste.
 
 ---
 
-## ðŸ› ï¸ To-Do / Extensions
+## 🛠️ To-Do / Extensions
 
 - Auto-deletion logic by expiration
 - Full authentication (e.g., via GitHub or Cloudflare Access)
@@ -113,7 +113,7 @@ Returns plain text view count for the paste.
 
 ---
 
-## ðŸ¤– GitHub Actions CI/CD
+## 🤖 GitHub Actions CI/CD
 
 To enable automatic deployment:
 
@@ -145,17 +145,17 @@ jobs:
 
 ---
 
-## ðŸ¤ Contributing
+## 🤝 Contributing
 
 1. Fork the repo
 2. Create your feature branch (`git checkout -b feature/foo`)
 3. Commit your changes (`git commit -am 'Add foo feature'`)
 4. Push to the branch (`git push origin feature/foo`)
-5. Open a pull request â¤ï¸
+5. Open a pull request ❤️
 
 ---
 
-## ðŸ’Œ Credits
+## 💌 Credits
 
 - Inspired by [Pastebin](https://pastebin.com)
 - Anime theme using Noto Sans JP + Fira Code
@@ -163,7 +163,7 @@ jobs:
 
 ---
 
-## ðŸ“„ License
+## 📄 License
 
 MIT License
 
@@ -190,3 +190,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
