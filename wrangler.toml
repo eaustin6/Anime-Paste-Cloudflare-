@@ -1,0 +1,4 @@
+kv_namespaces = [
+  { binding = "PASTES", id = "xxxx" },
+  { binding = "PASTE_VIEWS", id = "yyyy" }
+]
